@@ -11,14 +11,18 @@ function App(props) {
 
     useEffect(() => {}, []);
 
-    const Values = [{ number: 1001 }, { number: 20 }, { number: 30 }];
+    const Values = [{ number: 5 }, { number: 13 }, { number: 1998 }];
 
     const numbers = state < 10 ? <p>{state}</p> : null;
     return (
         <div className="App">
             {numbers}
             <button onClick={name}>+1</button>
-            <Table number={Values[0].number}></Table>
+            <Table
+                day={Values[0].number}
+                month={Values[1].number}
+                year={Values[2].number}
+            ></Table>
         </div>
     );
 }
