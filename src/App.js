@@ -11,7 +11,7 @@ function App() {
 
     useEffect(() => {}, []);
 
-    const numbers = <p>{state}</p>;
+    const numbers = state < 10 ? <p>{state}</p> : null;
     return (
         <div className="App">
             {numbers}
