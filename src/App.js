@@ -4,12 +4,25 @@ import Table from "./Components/Table";
 
 function App(props) {
     const [state, setState] = useState(0);
+    const [data, setData] = useState();
 
     function name() {
         setState(state + 1);
     }
 
-    useEffect(() => {}, []);
+    function getMagnus() {
+        return fetch(`https://api.chess.com/pub/player/magnuscarlsen`).then(
+            (resp) => resp.json()
+            
+        );
+    }
+
+    useEffect(() => {
+        const value = getMagnus().then((resp) => {
+            setData(resp);
+        });
+    }, []);
+
 
     const Values = [{ number: 5 }, { number: 13 }, { number: 1998 }];
 
@@ -23,6 +36,7 @@ function App(props) {
                 month={Values[1].number}
                 year={Values[2].number}
             ></Table>
+            <button onClick={() => alert(data.name)}>TestButton</button>
         </div>
     );
 }
