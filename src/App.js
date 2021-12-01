@@ -13,16 +13,15 @@ function App(props) {
     function getMagnus() {
         return fetch(`https://api.chess.com/pub/player/magnuscarlsen`).then(
             (resp) => resp.json()
-            
         );
     }
 
     useEffect(() => {
         const value = getMagnus().then((resp) => {
             setData(resp);
+            console.log(resp);
         });
     }, []);
-
 
     const Values = [{ number: 5 }, { number: 13 }, { number: 1998 }];
 

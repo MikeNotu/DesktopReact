@@ -4,11 +4,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Test from "./Components/Test";
+import Each from "./Components/Each";
+import HooksTesting from "./Components/HooksTesting";
 
 ReactDOM.render(
     <React.StrictMode>
+        <HooksTesting />
+        {/* <Each /> */}
         {/* <App /> */}
-        <Test />
+        {/* <Test /> */}
     </React.StrictMode>,
     document.getElementById("root")
 );
