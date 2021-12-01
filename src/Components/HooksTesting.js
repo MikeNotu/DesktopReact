@@ -1,7 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const HooksTesting = () => {
     const [inputValue, setInputValue] = useState("Mike");
+
+    useEffect(() => {
+        console.log("test");
+        alert("working");
+    });
 
     return (
         <div>
