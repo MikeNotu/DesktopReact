@@ -7,11 +7,13 @@ import Test from "./Components/Test";
 import Each from "./Components/Each";
 import HooksTesting from "./Components/HooksTesting";
 import UseRefExample from "./Components/UseRefExample";
+import FatherComponent from "./Components/FatherComponent";
 
 ReactDOM.render(
     <React.StrictMode>
         {/* <HooksTesting /> */}
-        <UseRefExample />
+        <FatherComponent />
+        {/* <UseRefExample /> */}
         {/* <Each /> */}
         {/* <App /> */}
         {/* <Test /> */}
