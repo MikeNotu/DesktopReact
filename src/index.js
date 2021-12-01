@@ -6,10 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 import Test from "./Components/Test";
 import Each from "./Components/Each";
 import HooksTesting from "./Components/HooksTesting";
+import UseRefExample from "./Components/UseRefExample";
 
 ReactDOM.render(
     <React.StrictMode>
-        <HooksTesting />
+        {/* <HooksTesting /> */}
+        <UseRefExample />
         {/* <Each /> */}
         {/* <App /> */}
         {/* <Test /> */}

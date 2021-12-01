@@ -1,24 +1,11 @@
 import { useEffect, useState } from "react";
 
 const HooksTesting = () => {
-    const [inputValue, setInputValue] = useState("Mike");
-
-    useEffect(() => {
-        console.log("test");
-        alert("working");
-    });
-
     return (
         <div>
-            <h1>testo</h1>
-
-            <input
-                onChange={(e) => {
-                    setInputValue(e.target.value);
-                }}
-            ></input>
-            <br />
-            {inputValue}
+            <h1>Mike</h1>
+            <input type="text" placeholder="Example...." />
+            <button>Change Name</button>
         </div>
     );
 };
