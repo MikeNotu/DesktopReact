@@ -8,11 +8,13 @@ import Each from "./Components/Each";
 import HooksTesting from "./Components/HooksTesting";
 import UseRefExample from "./Components/UseRefExample";
 import FatherComponent from "./Components/FatherComponent";
+import ProgressBarExample from './Components/ProgressBarExample';
 
 ReactDOM.render(
     <React.StrictMode>
         {/* <HooksTesting /> */}
-        <FatherComponent />
+        {/* <FatherComponent /> */}
+        <ProgressBarExample/>
         {/* <UseRefExample /> */}
         {/* <Each /> */}
         {/* <App /> */}
