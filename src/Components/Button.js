@@ -1,12 +1,12 @@
 import React from "react";
-
-const styles = {
-    backgroundColor: "royalblue",
-    color: "#fff",
-};
+import "../Button.scss";
+// const styles = {
+//     backgroundColor: "royalblue",
+//     color: "#fff",
+// };
 
 const Button = () => {
-    return <button style={styles}>Test</button>;
+    return <button className="button">Test</button>;
 };
 
 export default Button;

@@ -1,0 +1,11 @@
+$bluecolor: royalblue;
+
+.button {
+    background-color: $bluecolor;
+    color: "#fff";
+
+    &:hover {
+        background-color: aquamarine;
+        color: $bluecolor;
+    }
+}
