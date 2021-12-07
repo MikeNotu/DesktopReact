@@ -1,13 +1,12 @@
 import React from "react";
 
-const styles = {};
+const styles = {
+    backgroundColor: "royalblue",
+    color: "#fff",
+};
 
 const Button = () => {
-    return (
-        <button style={{ backgroundColor: "royalblue", color: "#fff" }}>
-            Test
-        </button>
-    );
+    return <button style={styles}>Test</button>;
 };
 
 export default Button;
