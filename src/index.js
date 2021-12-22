@@ -15,11 +15,12 @@ ReactDOM.render(
     <React.StrictMode>
         {/* <HooksTesting /> */}
         {/* <FatherComponent /> */}
-        <Button />
+        {/* <Button /> */}
+
         {/* <ProgressBarExample/> */}
         {/* <UseRefExample /> */}
         {/* <Each /> */}
-        {/* <App /> */}
+        <App />
         {/* <Test /> */}
     </React.StrictMode>,
     document.getElementById("root")
