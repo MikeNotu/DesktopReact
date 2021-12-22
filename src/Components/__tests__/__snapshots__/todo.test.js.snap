@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render completed todo component: <strike> 1`] = `
+<div
+  data-testid="todo-2"
+>
+  <strike>
+     
+    <h1>
+      wash car
+    </h1>
+     
+  </strike>
+</div>
+`;
