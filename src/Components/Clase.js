@@ -8,9 +8,13 @@ class Clase extends Component {
     // }
     state = { number: 5 };
     render() {
-        const number = this.props.number;
+        const { number, name } = this.props;
 
-        return <h1>Class Component {number}</h1>;
+        return (
+            <h1>
+                Class Component {name} {number}
+            </h1>
+        );
     }
 }
 

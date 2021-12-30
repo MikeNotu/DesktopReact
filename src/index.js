@@ -19,7 +19,7 @@ ReactDOM.render(
         {/* <FatherComponent /> */}
         {/* <Button /> */}
         {/* <Todos /> */}
-        <Clase number={3} />
+        <Clase number={3} name="Mike" />
         {/* <ProgressBarExample/> */}
         {/* <UseRefExample /> */}
         {/* <Each /> */}
