@@ -11,13 +11,15 @@ import FatherComponent from "./Components/FatherComponent";
 import ProgressBarExample from "./Components/ProgressBarExample";
 import Button from "./Components/Button";
 import Todos from "./Components/Todos";
+import Clase from "./Components/Clase";
 
 ReactDOM.render(
     <React.StrictMode>
         {/* <HooksTesting /> */}
         {/* <FatherComponent /> */}
         {/* <Button /> */}
-        <Todos />
+        {/* <Todos /> */}
+        <Clase number={3} />
         {/* <ProgressBarExample/> */}
         {/* <UseRefExample /> */}
         {/* <Each /> */}
