@@ -10,17 +10,18 @@ import UseRefExample from "./Components/UseRefExample";
 import FatherComponent from "./Components/FatherComponent";
 import ProgressBarExample from "./Components/ProgressBarExample";
 import Button from "./Components/Button";
+import Todos from "./Components/Todos";
 
 ReactDOM.render(
     <React.StrictMode>
         {/* <HooksTesting /> */}
         {/* <FatherComponent /> */}
         {/* <Button /> */}
-
+        <Todos />
         {/* <ProgressBarExample/> */}
         {/* <UseRefExample /> */}
         {/* <Each /> */}
-        <App />
+        {/* <App /> */}
         {/* <Test /> */}
     </React.StrictMode>,
     document.getElementById("root")
