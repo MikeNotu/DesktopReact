@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-export default function RefComponent() {
+export default function RefComponent1() {
     const [name, setName] = useState("");
     const renderCount = useRef(1);
 
