@@ -19,6 +19,7 @@ export default function RefComponent2() {
             />
             <div>My name is {name}</div>
             <button onClick={focus}>Focus</button>
+            <br />
         </>
     );
 }

@@ -14,6 +14,7 @@ import Todos from "./Components/Todos";
 import Clase from "./Components/Clase";
 import RefComponent1 from "./Components/RefComponent1";
 import RefComponent2 from "./Components/RefComponent2";
+import RefComponent3 from "./Components/RefComponent3";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
         {/* <Todos /> */}
         <RefComponent1 />
         <RefComponent2 />
+        <RefComponent3 />
         {/* <Clase number={3} name="Mike" /> */}
         {/* <ProgressBarExample/> */}
         {/* <UseRefExample /> */}
