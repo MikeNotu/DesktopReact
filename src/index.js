@@ -12,6 +12,7 @@ import ProgressBarExample from "./Components/ProgressBarExample";
 import Button from "./Components/Button";
 import Todos from "./Components/Todos";
 import Clase from "./Components/Clase";
+import RefComponent from "./Components/RefComponent";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -19,7 +20,8 @@ ReactDOM.render(
         {/* <FatherComponent /> */}
         {/* <Button /> */}
         {/* <Todos /> */}
-        <Clase number={3} name="Mike" />
+        <RefComponent />
+        {/* <Clase number={3} name="Mike" /> */}
         {/* <ProgressBarExample/> */}
         {/* <UseRefExample /> */}
         {/* <Each /> */}
