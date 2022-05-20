@@ -15,6 +15,7 @@ import Clase from "./Components/Clase";
 import RefComponent1 from "./Components/RefComponent1";
 import RefComponent2 from "./Components/RefComponent2";
 import RefComponent3 from "./Components/RefComponent3";
+import Testo from "./Components/Testo";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -22,9 +23,10 @@ ReactDOM.render(
         {/* <FatherComponent /> */}
         {/* <Button /> */}
         {/* <Todos /> */}
-        <RefComponent1 />
-        <RefComponent2 />
-        <RefComponent3 />
+        {/* <RefComponent1 /> */}
+        {/* <RefComponent2 /> */}
+        {/* <RefComponent3 /> */}
+        <Testo />
         {/* <Clase number={3} name="Mike" /> */}
         {/* <ProgressBarExample/> */}
         {/* <UseRefExample /> */}
