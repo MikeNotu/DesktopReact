@@ -19,6 +19,7 @@ import Testo from "./Components/Testo";
 
 ReactDOM.render(
     <React.StrictMode>
+        <App/>
         {/* <HooksTesting /> */}
         {/* <FatherComponent /> */}
         {/* <Button /> */}
@@ -26,7 +27,7 @@ ReactDOM.render(
         {/* <RefComponent1 /> */}
         {/* <RefComponent2 /> */}
         {/* <RefComponent3 /> */}
-        <Testo />
+        {/* <Testo /> */}
         {/* <Clase number={3} name="Mike" /> */}
         {/* <ProgressBarExample/> */}
         {/* <UseRefExample /> */}

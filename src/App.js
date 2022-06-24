@@ -1,18 +1,20 @@
 import "./App.css";
 import React from "react";
-import Todo from "./Components/todo";
+import Button from "./Components/Button";
+import Countdown from "./Components/Countdown";
 
 function App() {
-    const todos = [
-        { id: 1, title: "wash dishes", completed: false },
-        { id: 2, title: "make dinner", completed: true },
-    ];
+
+var Rick = [10,20,30];
 
     return (
-        <div className="App">
-            {todos.map((todo) => {
-                return <Todo todo={todo}></Todo>;
-            })}
+        <div>
+            <h1>Hola Mundo, soy React!</h1>
+            <h2>Hola Mundo, soy React!</h2>
+            <h3>Hola Mundo, soy React!</h3>
+            {Rick[2]}
+            <Button/>
+            <Countdown/>
         </div>
     );
 }
