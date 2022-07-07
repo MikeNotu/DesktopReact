@@ -4,32 +4,29 @@ import React from "react";
 function App() {
 
 
-    var puertaAbierta = false
+    var boletos = 0
 
 
-    function moverPuerta() {
+    function agregarUno () {
 
-        puertaAbierta=!puertaAbierta
+        boletos = boletos+1
 
-        if(puertaAbierta===true){
-            console.log("La puerta esta abierta")
-        }else{
-            console.log("La puerta esta cerrada")
-        }
+        console.log("Cantidad de boletos: "+boletos)
 
     }
 
-    function nombre() {
-        
+    function quitarUno () {
+
+        boletos = boletos-1
+
+        console.log("Cantidad de boletos: "+boletos)
+
     }
-
-    const nombre2 = () =>{}
-
-
 
     return (
         <div>
-            <button onClick={moverPuerta}>Mover Puerta</button>
+            <button onClick={agregarUno}>Agregar Boleto</button>
+            <button onClick={quitarUno}>Quitar Boleto</button>
         </div>
     );
 }
