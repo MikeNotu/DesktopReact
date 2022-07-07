@@ -3,26 +3,17 @@ import React from "react";
 
 function App() {
 
-    var sueldo = 10;
-    var nombre = "Juan";
-    var prendido = true;
+    var numero1 = 100
+    var numero2 = 550
 
-    let sueldo2 = 10;
-    const arizona = 13;
-
-    var cliente = {
-        nombre: "Pedro",
-        edad: 20,
-        casado: false,
+    if(numero1>numero2){
+        alert("El numero uno es mayor que el numero dos")
+    }else{
+        alert("El numero dos es mayor que el numero uno")
     }
-
-    var arreglo = [1,20,400,10,30]
-
 
     return (
         <div>
-         <h1 className="mike">Titulo</h1> 
-         {cliente.edad}
         </div>
     );
 }
