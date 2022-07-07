@@ -3,17 +3,21 @@ import React from "react";
 
 function App() {
 
-    var numero1 = 100
-    var numero2 = 550
+    var sueldoJefe = 10
+    var sueldoEmpleado = 2
 
-    if(numero1>numero2){
-        alert("El numero uno es mayor que el numero dos")
+    let amigo = "Juan"
+    var sueldoamigo
+
+    if(amigo=="Juan"){
+        sueldoamigo=sueldoJefe
     }else{
-        alert("El numero dos es mayor que el numero uno")
+        sueldoamigo=sueldoEmpleado
     }
 
     return (
         <div>
+            {sueldoamigo}
         </div>
     );
 }
