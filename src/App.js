@@ -3,21 +3,33 @@ import React from "react";
 
 function App() {
 
-    var sueldoJefe = 10
-    var sueldoEmpleado = 2
 
-    let amigo = "Juan"
-    var sueldoamigo
+    var puertaAbierta = false
 
-    if(amigo=="Juan"){
-        sueldoamigo=sueldoJefe
-    }else{
-        sueldoamigo=sueldoEmpleado
+
+    function moverPuerta() {
+
+        puertaAbierta=!puertaAbierta
+
+        if(puertaAbierta===true){
+            console.log("La puerta esta abierta")
+        }else{
+            console.log("La puerta esta cerrada")
+        }
+
     }
+
+    function nombre() {
+        
+    }
+
+    const nombre2 = () =>{}
+
+
 
     return (
         <div>
-            {sueldoamigo}
+            <button onClick={moverPuerta}>Mover Puerta</button>
         </div>
     );
 }
