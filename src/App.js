@@ -1,11 +1,11 @@
 import "./App.css";
 import React from "react";
-import FetchAsync from "./Components/FetchAsync";
+import Date from "./Components/Date";
 
 function App() {
   return (
     <div>
-      <FetchAsync />
+      <Date />
     </div>
   );
 }
